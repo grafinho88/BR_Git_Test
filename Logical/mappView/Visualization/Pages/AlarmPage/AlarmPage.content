@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AlarmPageContent" height="700" width="1130" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="10" left="10" width="1100" height="550" zIndex="0" format="" itemsPerPage="10" styleConfiguration="default">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem1" width="270" zIndex="0" columnType="timestamp" text="AlarmListItem1" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem2" width="450" zIndex="1" text="AlarmListItem2" />
+        <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem3" zIndex="2" columnType="severity" text="AlarmListItem3" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.Button" id="openConfAlarm" top="610" left="820" width="140" zIndex="1" text="Open Conf." />
+    <Widget xsi:type="widgets.brease.NavigationButton" id="NavigationButton1" top="610" left="600" width="190" zIndex="2" pageId="alarmHistory" text="History" />
+  </Widgets>
+</Content>

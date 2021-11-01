@@ -1,0 +1,99 @@
+#ContentLeft_NavigationBar1 {
+  width: 150px;
+}
+
+#ContentLeft_NavigationBar1 {
+  top: 0px;
+  position: absolute;
+}
+
+#ContentLeft_NavigationBar1 {
+  left: 0px;
+  position: absolute;
+}
+
+#ContentLeft_NavigationBar1 {
+  height: 300px;
+}
+
+#ContentLeft_NavigationBar1 {
+  z-index: 0;
+}
+
+#ContentLeft_MainPage {
+  top: 0px;
+  position: absolute;
+}
+
+#ContentLeft_MainPage {
+  left: 0px;
+  position: absolute;
+}
+
+#ContentLeft_MainPage {
+  width: 140px;
+}
+
+#ContentLeft_MainPage {
+  height: 60px;
+}
+
+#ContentLeft_MainPage {
+  z-index: 0;
+}
+
+#ContentLeft_MainPage {
+  margin: 5px;
+}
+
+#ContentLeft_ServicePage {
+  top: 0px;
+  position: absolute;
+}
+
+#ContentLeft_ServicePage {
+  left: 0px;
+  position: absolute;
+}
+
+#ContentLeft_ServicePage {
+  width: 140px;
+}
+
+#ContentLeft_ServicePage {
+  height: 60px;
+}
+
+#ContentLeft_ServicePage {
+  z-index: 1;
+}
+
+#ContentLeft_ServicePage {
+  margin: 5px;
+}
+
+#ContentLeft_AlarmPage {
+  top: 0px;
+  position: absolute;
+}
+
+#ContentLeft_AlarmPage {
+  left: 0px;
+  position: absolute;
+}
+
+#ContentLeft_AlarmPage {
+  width: 140px;
+}
+
+#ContentLeft_AlarmPage {
+  height: 60px;
+}
+
+#ContentLeft_AlarmPage {
+  z-index: 2;
+}
+
+#ContentLeft_AlarmPage {
+  margin: 5px;
+}

@@ -1,0 +1,70 @@
+﻿@import "mixins.scss";
+#ContentLeft_NavigationBar1 {
+	@include elemWidth(150);
+}
+#ContentLeft_NavigationBar1 {
+	@include elemTop(0);
+}
+#ContentLeft_NavigationBar1 {
+	@include elemLeft(0);
+}
+#ContentLeft_NavigationBar1 {
+	@include elemHeight(300);
+}
+#ContentLeft_NavigationBar1 {
+		z-index: 0;
+}
+#ContentLeft_MainPage {
+	@include elemTop(0);
+}
+#ContentLeft_MainPage {
+	@include elemLeft(0);
+}
+#ContentLeft_MainPage {
+	@include elemAutoWidth(140);
+}
+#ContentLeft_MainPage {
+	@include elemAutoHeight(60);
+}
+#ContentLeft_MainPage {
+		z-index: 0;
+}
+#ContentLeft_MainPage {
+		margin: 5px;
+}
+#ContentLeft_ServicePage {
+	@include elemTop(0);
+}
+#ContentLeft_ServicePage {
+	@include elemLeft(0);
+}
+#ContentLeft_ServicePage {
+	@include elemAutoWidth(140);
+}
+#ContentLeft_ServicePage {
+	@include elemAutoHeight(60);
+}
+#ContentLeft_ServicePage {
+		z-index: 1;
+}
+#ContentLeft_ServicePage {
+		margin: 5px;
+}
+#ContentLeft_AlarmPage {
+	@include elemTop(0);
+}
+#ContentLeft_AlarmPage {
+	@include elemLeft(0);
+}
+#ContentLeft_AlarmPage {
+	@include elemAutoWidth(140);
+}
+#ContentLeft_AlarmPage {
+	@include elemAutoHeight(60);
+}
+#ContentLeft_AlarmPage {
+		z-index: 2;
+}
+#ContentLeft_AlarmPage {
+		margin: 5px;
+}

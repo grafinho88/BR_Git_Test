@@ -1,0 +1,164 @@
+﻿@import "mixins.scss";
+#ServicePageContent_Login1 {
+	@include elemHeight(160);
+}
+#ServicePageContent_Login1 {
+	@include elemTop(60);
+}
+#ServicePageContent_Login1 {
+	@include elemLeft(50);
+}
+#ServicePageContent_Login1 {
+	@include elemWidth(310);
+}
+#ServicePageContent_Login1 {
+		z-index: 0;
+}
+#ServicePageContent_LanguageSelector1 {
+	&.DropDownBoxView{
+	@include elemWidth(100);
+	}
+}
+#ServicePageContent_LanguageSelector1 {
+	&.DropDownBoxView{
+	@include elemHeight(30);
+	}
+}
+#ServicePageContent_LanguageSelector1 {
+	@include elemTop(230);
+}
+#ServicePageContent_LanguageSelector1 {
+	@include elemLeft(50);
+}
+#ServicePageContent_LanguageSelector1 {
+		z-index: 1;
+}
+#ServicePageContent_MeasurementSystemSelector1 {
+	&.DropDownBoxView{
+	@include elemWidth(100);
+	}
+}
+#ServicePageContent_MeasurementSystemSelector1 {
+	&.DropDownBoxView{
+	@include elemHeight(30);
+	}
+}
+#ServicePageContent_MeasurementSystemSelector1 {
+	@include elemTop(290);
+}
+#ServicePageContent_MeasurementSystemSelector1 {
+	@include elemLeft(50);
+}
+#ServicePageContent_MeasurementSystemSelector1 {
+		z-index: 2;
+}
+#ServicePageContent_GroupBox1 {
+	@include elemTop(20);
+}
+#ServicePageContent_GroupBox1 {
+	@include elemLeft(480);
+}
+#ServicePageContent_GroupBox1 {
+	@include elemWidth(520);
+}
+#ServicePageContent_GroupBox1 {
+	@include elemHeight(160);
+}
+#ServicePageContent_GroupBox1 {
+		z-index: 3;
+}
+#ServicePageContent_GroupBox1 {
+	> .header{
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+#ServicePageContent_GroupBox2 {
+	@include elemTop(0);
+}
+#ServicePageContent_GroupBox2 {
+	@include elemLeft(0);
+}
+#ServicePageContent_GroupBox2 {
+	@include elemWidth(520);
+}
+#ServicePageContent_GroupBox2 {
+	@include elemHeight(40);
+}
+#ServicePageContent_GroupBox2 {
+		z-index: 0;
+}
+#ServicePageContent_GroupBox3 {
+	@include elemTop(0);
+}
+#ServicePageContent_GroupBox3 {
+	@include elemLeft(0);
+}
+#ServicePageContent_GroupBox3 {
+	@include elemWidth(520);
+}
+#ServicePageContent_GroupBox3 {
+	@include elemHeight(40);
+}
+#ServicePageContent_GroupBox3 {
+		z-index: 1;
+}
+#ServicePageContent_GroupBox4 {
+	@include elemTop(0);
+}
+#ServicePageContent_GroupBox4 {
+	@include elemLeft(0);
+}
+#ServicePageContent_GroupBox4 {
+	@include elemWidth(520);
+}
+#ServicePageContent_GroupBox4 {
+	@include elemHeight(40);
+}
+#ServicePageContent_GroupBox4 {
+		z-index: 2;
+}
+#ServicePageContent_BasicSlider1 {
+	@include elemWidth(250);
+}
+#ServicePageContent_BasicSlider1 {
+	@include elemHeight(100);
+}
+#ServicePageContent_BasicSlider1 {
+	@include elemTop(240);
+}
+#ServicePageContent_BasicSlider1 {
+	@include elemLeft(490);
+}
+#ServicePageContent_BasicSlider1 {
+		z-index: 4;
+}
+#ServicePageContent_RadialGauge1 {
+	@include elemWidth(200);
+}
+#ServicePageContent_RadialGauge1 {
+	@include elemHeight(200);
+}
+#ServicePageContent_RadialGauge1 {
+	@include elemTop(200);
+}
+#ServicePageContent_RadialGauge1 {
+	@include elemLeft(840);
+}
+#ServicePageContent_RadialGauge1 {
+		z-index: 5;
+}
+#ServicePageContent_BasicSlider2 {
+	@include elemWidth(250);
+}
+#ServicePageContent_BasicSlider2 {
+	@include elemHeight(100);
+}
+#ServicePageContent_BasicSlider2 {
+	@include elemTop(360);
+}
+#ServicePageContent_BasicSlider2 {
+	@include elemLeft(490);
+}
+#ServicePageContent_BasicSlider2 {
+		z-index: 6;
+}

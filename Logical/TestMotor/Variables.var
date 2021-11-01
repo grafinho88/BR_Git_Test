@@ -1,0 +1,11 @@
+VAR
+
+	ready : BOOL;
+	motorIsReady : BOOL;
+	
+	FbMotor1 : FB_Motor;
+	FbMotoren : ARRAY[1..2] OF FB_Motor;
+
+	
+
+END_VAR

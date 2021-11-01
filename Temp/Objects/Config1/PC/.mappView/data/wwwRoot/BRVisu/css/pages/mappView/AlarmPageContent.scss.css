@@ -1,0 +1,89 @@
+#AlarmPageContent_AlarmList1 {
+  top: 10px;
+  position: absolute;
+}
+
+#AlarmPageContent_AlarmList1 {
+  left: 10px;
+  position: absolute;
+}
+
+#AlarmPageContent_AlarmList1 {
+  width: 1100px;
+}
+
+#AlarmPageContent_AlarmList1 {
+  height: 550px;
+}
+
+#AlarmPageContent_AlarmList1 {
+  z-index: 0;
+}
+
+#AlarmPageContent_AlarmListItem1 {
+  width: 270px;
+}
+
+#AlarmPageContent_AlarmListItem1 {
+  z-index: 0;
+}
+
+#AlarmPageContent_AlarmListItem2 {
+  width: 450px;
+}
+
+#AlarmPageContent_AlarmListItem2 {
+  z-index: 1;
+}
+
+#AlarmPageContent_AlarmListItem3 {
+  width: 200px;
+}
+
+#AlarmPageContent_AlarmListItem3 {
+  z-index: 2;
+}
+
+#AlarmPageContent_openConfAlarm {
+  height: 30px;
+}
+
+#AlarmPageContent_openConfAlarm {
+  top: 610px;
+  position: absolute;
+}
+
+#AlarmPageContent_openConfAlarm {
+  left: 820px;
+  position: absolute;
+}
+
+#AlarmPageContent_openConfAlarm {
+  width: 140px;
+}
+
+#AlarmPageContent_openConfAlarm {
+  z-index: 1;
+}
+
+#AlarmPageContent_NavigationButton1 {
+  height: 30px;
+}
+
+#AlarmPageContent_NavigationButton1 {
+  top: 610px;
+  position: absolute;
+}
+
+#AlarmPageContent_NavigationButton1 {
+  left: 600px;
+  position: absolute;
+}
+
+#AlarmPageContent_NavigationButton1 {
+  width: 190px;
+}
+
+#AlarmPageContent_NavigationButton1 {
+  z-index: 2;
+}

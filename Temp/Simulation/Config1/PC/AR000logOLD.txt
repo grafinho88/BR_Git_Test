@@ -1,0 +1,48 @@
+Sun Oct 31 17:24:30 2021
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Sun Oct 31 17:24:30 2021
+No ARsim registration found!
+
+Sun Oct 31 17:24:30 2021
+InstanceName: 01d7ce73c81291a0
+
+Sun Oct 31 17:24:30 2021
+WorkingDirectory: C:\Software\TestProgramme\TestMappView\TestMappView\Temp\Simulation\Config1\PC\
+
+Sun Oct 31 17:24:30 2021
+COMMAND_COLDSTART
+
+Sun Oct 31 17:24:32 2021
+Version: C4.72
+
+Sun Oct 31 17:35:09 2021
+COMMAND_TERMINATE
+
+Sun Oct 31 17:35:09 2021
+COMMAND_COLDSTART
+
+Sun Oct 31 17:35:12 2021
+Version: C4.72
+
+Sun Oct 31 17:37:04 2021
+COMMAND_TERMINATE
+
+Sun Oct 31 17:37:04 2021
+COMMAND_COLDSTART
+
+Sun Oct 31 17:37:06 2021
+Version: C4.72
+
+Sun Oct 31 18:21:32 2021
+COMMAND_TERMINATE
+
+Sun Oct 31 18:21:32 2021
+COMMAND_COLDSTART
+
+Sun Oct 31 18:21:35 2021
+Version: C4.72
+
+Sun Oct 31 18:28:44 2021
+COMMAND_TERMINATE
+

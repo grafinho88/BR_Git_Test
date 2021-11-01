@@ -1,0 +1,26 @@
+VAR
+
+	FB_MpAlarmXCore : MpAlarmXCore;
+	FB_MpAlarmXHistory : MpAlarmXHistory;
+	FB_AlarmResetAll : MpAlarmXAcknowledgeAll;
+	cmdErrorReset : BOOL;
+	cmdAlarm1 : BOOL;
+	cmdAlarm2 : BOOL;
+	cmdAlarm3 : BOOL;
+	resetAlarm1 : BOOL;
+	resetAlarm2 : BOOL;
+	resetAlarm3 : BOOL;
+	snippet1 : USINT;
+	snippet2 : USINT;
+	snippet3 : USINT;
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+END_VAR

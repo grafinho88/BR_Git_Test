@@ -1,0 +1,9 @@
+@import "mixins.scss";
+@mixin widgets_brease_AlarmHistoryItem_base {
+	@include elemWidth(200);
+
+}
+
+.widgets_brease_AlarmHistoryItem_style_default {
+@include widgets_brease_AlarmHistoryItem_base 
+}

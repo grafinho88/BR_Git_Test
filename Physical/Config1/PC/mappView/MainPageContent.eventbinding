@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EventBindingSet id="MainPageContent_eventbinding" xmlns="http://www.br-automation.com/iat2014/eventbinding/v2" xmlns:types="http://www.br-automation.com/iat2015/widgetTypes/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bindings>
+    <EventBinding id="MainPageContent.Button1.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="MainPageContent" widgetRefId="Button1" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gSollTemp">
+            <Method xsi:type="opcUa.NodeAction.SetValueNumber" value="35" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="EventBinding_1">
+      <Source xsi:type="opcUa.Event" refId="::AsGlobalPV:gIstTemp" event="ValueChanged" />
+      <EventHandler condition="newValue &gt;= 45">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="MainPageContent" widgetRefId="Image1">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="true" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue &lt; 45">
+        <Action>
+          <Target xsi:type="widgets.brease.Image.Action" contentRefId="MainPageContent" widgetRefId="Image1">
+            <Method xsi:type="widgets.brease.Image.Action.SetVisible" value="false" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="MainPageContent.ButtonMsgBox.Click" comment="Open MessageBox ">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="MainPageContent" widgetRefId="ButtonMsgBox" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="clientSystem.Action">
+            <Method xsi:type="clientSystem.Action.ShowMessageBox" type="OKCancel" message="Reset Soll Temperatur?" header="Message Box Temp" icon="Warning" />
+          </Target>
+          <Result>
+            <ResultHandler condition="result = 4">
+              <Action>
+                <Target xsi:type="opcUa.NodeAction" refId="::AsGlobalPV:gSollTemp">
+                  <Method xsi:type="opcUa.NodeAction.SetValueNumber" value="30" />
+                </Target>
+              </Action>
+            </ResultHandler>
+          </Result>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="changeStyleColor">
+      <Source xsi:type="opcUa.Event" refId="::MainProgra:visuChangeStyleFromWidget" event="ValueChanged" />
+      <EventHandler condition="newValue = TRUE">
+        <Action>
+          <Target xsi:type="widgets.brease.Button.Action" contentRefId="MainPageContent" widgetRefId="ButtonMsgBox">
+            <Method xsi:type="widgets.brease.Button.Action.SetStyle" value="textColorRed" />
+          </Target>
+        </Action>
+      </EventHandler>
+      <EventHandler condition="newValue = FALSE">
+        <Action>
+          <Target xsi:type="widgets.brease.Button.Action" contentRefId="MainPageContent" widgetRefId="ButtonMsgBox">
+            <Method xsi:type="widgets.brease.Button.Action.SetStyle" value="default" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+    <EventBinding id="AlarmPageContent.openConfAlarm.Click">
+      <Source xsi:type="widgets.brease.Button.Event" contentRefId="AlarmPageContent" widgetRefId="openConfAlarm" event="Click" />
+      <EventHandler>
+        <Action>
+          <Target xsi:type="widgets.brease.AlarmList.Action" contentRefId="AlarmPageContent" widgetRefId="AlarmList1">
+            <Method xsi:type="widgets.brease.AlarmList.Action.OpenConfiguration" type="Styling" />
+          </Target>
+        </Action>
+      </EventHandler>
+    </EventBinding>
+  </Bindings>
+</EventBindingSet>

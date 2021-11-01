@@ -1,0 +1,138 @@
+#ContentTop_Image1 {
+  top: 20px;
+  position: absolute;
+}
+
+#ContentTop_Image1 {
+  left: 20px;
+  position: absolute;
+}
+
+#ContentTop_Image1 {
+  width: 220px;
+}
+
+#ContentTop_Image1 {
+  height: 40px;
+}
+
+#ContentTop_Image1 {
+  z-index: 0;
+}
+
+#ContentTop_LogoutButton1 {
+  height: 30px;
+}
+
+#ContentTop_LogoutButton1 {
+  top: 50px;
+  position: absolute;
+}
+
+#ContentTop_LogoutButton1 {
+  left: 1080px;
+  position: absolute;
+}
+
+#ContentTop_LogoutButton1 {
+  width: 120px;
+}
+
+#ContentTop_LogoutButton1 {
+  z-index: 1;
+}
+
+#ContentTop_LoginInfo1 {
+  width: 120px;
+}
+
+#ContentTop_LoginInfo1 {
+  height: 30px;
+}
+
+#ContentTop_LoginInfo1 {
+  top: 10px;
+  position: absolute;
+}
+
+#ContentTop_LoginInfo1 {
+  left: 1080px;
+  position: absolute;
+}
+
+#ContentTop_LoginInfo1 {
+  z-index: 2;
+}
+
+#ContentTop_ImageLogin {
+  top: 20px;
+  position: absolute;
+}
+
+#ContentTop_ImageLogin {
+  left: 840px;
+  position: absolute;
+}
+
+#ContentTop_ImageLogin {
+  width: 60px;
+}
+
+#ContentTop_ImageLogin {
+  height: 60px;
+}
+
+#ContentTop_ImageLogin {
+  z-index: 3;
+}
+
+#ContentTop_Label1 {
+  height: 30px;
+}
+
+#ContentTop_Label1 {
+  top: 10px;
+  position: absolute;
+}
+
+#ContentTop_Label1 {
+  left: 900px;
+  position: absolute;
+}
+
+#ContentTop_Label1 {
+  width: 180px;
+}
+
+#ContentTop_Label1 {
+  z-index: 4;
+}
+
+#ContentTop_Label1 {
+  justify-content: flex-end;
+  text-align: right;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#ContentTop_NumericOutput1 {
+  width: 100px;
+}
+
+#ContentTop_NumericOutput1 {
+  height: 30px;
+}
+
+#ContentTop_NumericOutput1 {
+  top: 40px;
+  position: absolute;
+}
+
+#ContentTop_NumericOutput1 {
+  left: 470px;
+  position: absolute;
+}
+
+#ContentTop_NumericOutput1 {
+  z-index: 5;
+}

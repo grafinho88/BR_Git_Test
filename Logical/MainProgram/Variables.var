@@ -1,0 +1,5 @@
+VAR
+	MTBasicPT1 : MTBasicsPT1;
+	visuChangeStyleFromWidget : BOOL;
+	visuStyle : STRING;
+END_VAR

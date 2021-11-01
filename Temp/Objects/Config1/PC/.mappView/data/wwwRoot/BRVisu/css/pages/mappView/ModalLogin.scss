@@ -1,0 +1,16 @@
+﻿@import "mixins.scss";
+#ModalLogin_Login1 {
+	@include elemTop(30);
+}
+#ModalLogin_Login1 {
+	@include elemLeft(40);
+}
+#ModalLogin_Login1 {
+	@include elemWidth(370);
+}
+#ModalLogin_Login1 {
+	@include elemHeight(170);
+}
+#ModalLogin_Login1 {
+		z-index: 0;
+}

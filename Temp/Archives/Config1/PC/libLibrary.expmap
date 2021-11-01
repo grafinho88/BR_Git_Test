@@ -1,0 +1,6 @@
+{
+  global:
+    FB_Motor;
+  local:
+    *;
+ };

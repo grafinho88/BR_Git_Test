@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Widgets/AlarmList</prop>
+  </header>
+  <body>
+    <tu tuid="filter.title">
+      <tuv xml:lang="de">
+        <seg>Konfigurationsdialog zum Filtern von Alarmen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Configuration dialog to filter alarms</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Konfigurationsdialog för att filtrera alarm</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Configuration du filtrage des alarmes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="filter.col">
+      <tuv xml:lang="de">
+        <seg>Spalte</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Column</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kolumn</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Colonne</seg>
+      </tuv>
+    </tu>
+    <tu tuid="filter.op">
+      <tuv xml:lang="de">
+        <seg>Operator</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Operator</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Operatör</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Opérateur</seg>
+      </tuv>
+    </tu>
+    <tu tuid="filter.val">
+      <tuv xml:lang="de">
+        <seg>Wert</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Value</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Värde</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Valeur</seg>
+      </tuv>
+    </tu>
+    <tu tuid="filter.state">
+      <tuv xml:lang="de">
+        <seg>und Status ist</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and state is</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>och statusen är</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>et le statut est</seg>
+      </tuv>
+    </tu>
+    <tu tuid="filter.act">
+      <tuv xml:lang="de">
+        <seg>aktiv</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>active</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>aktiv</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>actif</seg>
+      </tuv>
+    </tu>
+    <tu tuid="filter.actack">
+      <tuv xml:lang="de">
+        <seg>aktiv bestätigt</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>active acknowledged</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>aktiv kvitterad</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>actif acquittée</seg>
+      </tuv>
+    </tu>
+    <tu tuid="filter.inact">
+      <tuv xml:lang="de">
+        <seg>inaktiv</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>inactive</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>inaktiv</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>inactif</seg>
+      </tuv>
+    </tu>
+    <tu tuid="filter.or">
+      <tuv xml:lang="de">
+        <seg>oder</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>or</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>eller</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>ou</seg>
+      </tuv>
+    </tu>
+    <tu tuid="filter.and">
+      <tuv xml:lang="de">
+        <seg>und</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>och</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>et</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sort.title">
+      <tuv xml:lang="de">
+        <seg>Konfigurationsdialog zum Sortieren von Alarmen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Configuration dialog to sort alarms</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Konfigurationsdialog för att sortera alarm</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Configuration pour le tri des alarmes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sort.col">
+      <tuv xml:lang="de">
+        <seg>Spalte</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Column</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kolumn</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Colonne</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sort.sort">
+      <tuv xml:lang="de">
+        <seg>Sortieren</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Sort</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Sotera</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Trier</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sort.by">
+      <tuv xml:lang="de">
+        <seg>Nach</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>By</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Som</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Par</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sort.first">
+      <tuv xml:lang="de">
+        <seg>Zuerst</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>First</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Först</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Premier</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sort.then">
+      <tuv xml:lang="de">
+        <seg>dann</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>then</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>sedan</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>puis</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sort.inc">
+      <tuv xml:lang="de">
+        <seg>aufsteigend</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>increasing</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>ökandes</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>croissant</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sort.dec">
+      <tuv xml:lang="de">
+        <seg>absteigend</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>decreasing</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>minskandes</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>décroissant</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sort.az">
+      <tuv xml:lang="de">
+        <seg>A - Z</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>A - Z</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>A - Ö</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>A à Z</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sort.za">
+      <tuv xml:lang="de">
+        <seg>Z - A</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Z - A</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ö - A</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Z à A</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sort.old">
+      <tuv xml:lang="de">
+        <seg>älteste</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>oldest first</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>äldst först</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>vieux</seg>
+      </tuv>
+    </tu>
+    <tu tuid="sort.new">
+      <tuv xml:lang="de">
+        <seg>neueste</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>newest first</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>nyast först</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>nouveau</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style.title">
+      <tuv xml:lang="de">
+        <seg>Konfigurationsdialog zum Stylen von Alarmen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Configuration dialogue to style alarms</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Konfigurationsdialog för att utforma alarm</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Configuration du style des alarmes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style.style">
+      <tuv xml:lang="de">
+        <seg>Style festlegen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Set style</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Sätt stil</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>Définir le style</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style.state">
+      <tuv xml:lang="de">
+        <seg>wenn Alarm ist</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>if alarm is</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>om alarm är</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>si l'alarme est</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style.act">
+      <tuv xml:lang="de">
+        <seg>aktiv</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>active</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>aktiv</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>actif</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style.actack">
+      <tuv xml:lang="de">
+        <seg>aktiv bestätigt</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>active acknowledged</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>aktiv kvitterad</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>actif acquittée</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style.inact">
+      <tuv xml:lang="de">
+        <seg>inaktiv</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>inactive</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>inaktiv</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>inactif</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style.sev">
+      <tuv xml:lang="de">
+        <seg>und Schweregrad ist</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and severity condition</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>och alarmnivån är</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>et niveau d'alarme</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style.any">
+      <tuv xml:lang="de">
+        <seg>alle</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>any</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>alla</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>toute</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style.or">
+      <tuv xml:lang="de">
+        <seg>oder</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>or</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>eller</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>ou</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style.and">
+      <tuv xml:lang="de">
+        <seg>und</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>och</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>et</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style1">
+      <tuv xml:lang="de">
+        <seg>style1</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>style1</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>style1</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>style1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style2">
+      <tuv xml:lang="de">
+        <seg>style2</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>style2</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>style2</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>style2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style3">
+      <tuv xml:lang="de">
+        <seg>style3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>style3</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>style3</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>style3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style4">
+      <tuv xml:lang="de">
+        <seg>style4</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>style4</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>style4</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>style4</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style5">
+      <tuv xml:lang="de">
+        <seg>style5</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>style5</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>style5</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>style5</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style6">
+      <tuv xml:lang="de">
+        <seg>style6</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>style6</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>style6</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>style6</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style7">
+      <tuv xml:lang="de">
+        <seg>style7</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>style7</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>style7</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>style7</seg>
+      </tuv>
+    </tu>
+    <tu tuid="style8">
+      <tuv xml:lang="de">
+        <seg>style8</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>style8</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>style8</seg>
+      </tuv>
+      <tuv xml:lang="fr">
+        <seg>style8</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

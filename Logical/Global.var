@@ -1,0 +1,14 @@
+VAR
+	testInt : INT;
+	ClientInfo : ARRAY[0..2] OF ClientInfoType;
+	
+	gIstTemp : INT;
+	gSollTemp : INT;
+	
+	gDropDownItems : ARRAY[0..2] OF STRING[100];
+	gDropDownSelectedValue : STRING[100];
+	gDropDownSelectedIndex : INT;
+	gIntFromString : INT;
+	
+	
+END_VAR

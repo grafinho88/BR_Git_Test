@@ -1,0 +1,201 @@
+#MainPageContent_NumericOutput1 {
+  width: 100px;
+}
+
+#MainPageContent_NumericOutput1 {
+  height: 30px;
+}
+
+#MainPageContent_NumericOutput1 {
+  top: 180px;
+  position: absolute;
+}
+
+#MainPageContent_NumericOutput1 {
+  left: 280px;
+  position: absolute;
+}
+
+#MainPageContent_NumericOutput1 {
+  z-index: 0;
+}
+
+#MainPageContent_Label2 {
+  height: 30px;
+}
+
+#MainPageContent_Label2 {
+  top: 180px;
+  position: absolute;
+}
+
+#MainPageContent_Label2 {
+  left: 120px;
+  position: absolute;
+}
+
+#MainPageContent_Label2 {
+  width: 120px;
+}
+
+#MainPageContent_Label2 {
+  z-index: 1;
+}
+
+#MainPageContent_Label3 {
+  height: 30px;
+}
+
+#MainPageContent_Label3 {
+  top: 140px;
+  position: absolute;
+}
+
+#MainPageContent_Label3 {
+  left: 300px;
+  position: absolute;
+}
+
+#MainPageContent_Label3 {
+  width: 120px;
+}
+
+#MainPageContent_Label3 {
+  z-index: 2;
+}
+
+#MainPageContent_Label4 {
+  height: 30px;
+}
+
+#MainPageContent_Label4 {
+  top: 140px;
+  position: absolute;
+}
+
+#MainPageContent_Label4 {
+  left: 420px;
+  position: absolute;
+}
+
+#MainPageContent_Label4 {
+  width: 120px;
+}
+
+#MainPageContent_Label4 {
+  z-index: 3;
+}
+
+#MainPageContent_NumericInput1 {
+  width: 100px;
+}
+
+#MainPageContent_NumericInput1 {
+  height: 30px;
+}
+
+#MainPageContent_NumericInput1 {
+  top: 180px;
+  position: absolute;
+}
+
+#MainPageContent_NumericInput1 {
+  left: 420px;
+  position: absolute;
+}
+
+#MainPageContent_NumericInput1 {
+  z-index: 4;
+}
+
+#MainPageContent_Button1 {
+  top: 60px;
+  position: absolute;
+}
+
+#MainPageContent_Button1 {
+  left: 160px;
+  position: absolute;
+}
+
+#MainPageContent_Button1 {
+  width: 170px;
+}
+
+#MainPageContent_Button1 {
+  height: 50px;
+}
+
+#MainPageContent_Button1 {
+  z-index: 5;
+}
+
+#MainPageContent_Image1 {
+  top: 170px;
+  position: absolute;
+}
+
+#MainPageContent_Image1 {
+  left: 240px;
+  position: absolute;
+}
+
+#MainPageContent_Image1 {
+  width: 40px;
+}
+
+#MainPageContent_Image1 {
+  height: 40px;
+}
+
+#MainPageContent_Image1 {
+  z-index: 6;
+}
+
+#MainPageContent_Image1 > .ImageView > svg {
+  fill: #ff8000;
+}
+
+#MainPageContent_ButtonMsgBox {
+  top: 60px;
+  position: absolute;
+}
+
+#MainPageContent_ButtonMsgBox {
+  left: 410px;
+  position: absolute;
+}
+
+#MainPageContent_ButtonMsgBox {
+  width: 170px;
+}
+
+#MainPageContent_ButtonMsgBox {
+  height: 50px;
+}
+
+#MainPageContent_ButtonMsgBox {
+  z-index: 7;
+}
+
+#MainPageContent_DropDownBox1.DropDownBoxView {
+  height: 30px;
+}
+
+#MainPageContent_DropDownBox1 {
+  top: 270px;
+  position: absolute;
+}
+
+#MainPageContent_DropDownBox1 {
+  left: 140px;
+  position: absolute;
+}
+
+#MainPageContent_DropDownBox1.DropDownBoxView {
+  width: 370px;
+}
+
+#MainPageContent_DropDownBox1 {
+  z-index: 8;
+}

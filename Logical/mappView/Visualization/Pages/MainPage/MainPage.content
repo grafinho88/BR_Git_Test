@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="MainPageContent" height="700" width="1130" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.NumericOutput" id="NumericOutput1" top="180" left="280" zIndex="0" unit="{'metric':'CEL','imperial':'FAH','imperial-us':'FAH'}" unitAlign="right" />
+    <Widget xsi:type="widgets.brease.Label" id="Label2" top="180" left="120" width="120" zIndex="1" text="Node Binding:" />
+    <Widget xsi:type="widgets.brease.Label" id="Label3" top="140" left="300" width="120" zIndex="2" text="Ist Temp." />
+    <Widget xsi:type="widgets.brease.Label" id="Label4" top="140" left="420" width="120" zIndex="3" text="Soll Temp." />
+    <Widget xsi:type="widgets.brease.NumericInput" id="NumericInput1" top="180" left="420" zIndex="4" unit="{'metric':'CEL','imperial':'FAH','imperial-us':'FAH'}" unitAlign="right" style="FavoriteWatch" />
+    <Widget xsi:type="widgets.brease.Button" id="Button1" top="60" left="160" width="170" height="50" zIndex="5" text="$IAT/SetDefaultValue" permissionOperate="['Operator', 'Service']" />
+    <Widget xsi:type="widgets.brease.Image" id="Image1" top="170" left="240" width="40" height="40" zIndex="6" image="Media/SymbolLib/Alarm/Alarm.svg" imageColor="rgba(255, 128, 0, 1)" visible="false" />
+    <Widget xsi:type="widgets.brease.Button" id="ButtonMsgBox" top="60" left="410" width="170" height="50" zIndex="7" text="MsgBox" />
+    <Widget xsi:type="widgets.brease.DropDownBox" id="DropDownBox1" top="270" left="140" width="370" zIndex="8" />
+  </Widgets>
+</Content>

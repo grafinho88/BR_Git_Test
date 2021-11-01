@@ -1,0 +1,160 @@
+@import "mixins.scss";
+@mixin widgets_brease_AlarmList_base {
+	@include elemWidth(600);
+	@include elemHeight(300);
+&.breaseTableWidget .tw_table table tbody tr {
+	@include rowHeight(0);
+}
+&.breaseTableWidget .tw_table table tbody tr img {
+	@include rowHeight(0);
+}
+&.breaseTableWidget #fakeRowHeight {
+	@include rowHeight(0);
+}
+&.breaseTableWidget {
+	border-style: none;
+}
+&.breaseTableWidget {
+	border-width: 1px;
+}
+&.breaseTableWidget {
+	border-color: #ddd;
+}
+&.breaseTableWidget {
+	background-color: transparent;
+}
+&.breaseTableWidget .devTableColumnWidget:not(.disabled) {
+	background-color: #fff;
+}
+&.breaseTableWidget .devTableColumnWidget:not(.disabled) {
+	@include backGroundGradient('');
+}
+&.breaseTableWidget .devTableColumnWidget:not(.disabled) {
+	color: #000;
+}
+&.breaseTableWidget .devTableColumnWidget .headerText {
+	font-size: 16px;
+}
+&.breaseTableWidget .dataTable tr.selected td {
+	background-color: #ff8800;
+}
+&.breaseTableWidget .dataTable paginate_button current {
+	border-color: #ff8800;
+}
+&.breaseTableWidget .dataTable tr.mousedown:not(.selected) td {
+	@include active-background-color-important(transparent);
+}
+&.breaseTableWidget .dataTable tr:not(.disabled):nth-of-type(even) {
+	background-color: #fff;
+}
+&.breaseTableWidget .dataTable tr:not(.disabled):nth-of-type(odd) {
+	background-color: #f9f9f9;
+}
+&.breaseTableWidget .dataTable>tbody>tr.mousedown:not(.selected) td {
+	@include active-color(transparent);
+}
+&.breaseTableWidget .dataTable>tbody>tr.selected td {
+	color: #fff;
+}
+&.breaseTableWidget .dataTable>tbody>tr:not(.selected):not(.disabled)>td {
+	color: #000;
+}
+&.breaseTableWidget .dataTable>tbody>tr>td {
+	font-size: 14px;
+}
+&.breaseTableWidget .devTableColumnWidget {
+	font-family: Arial;
+}
+&.breaseTableWidget .dataTable>tbody>tr>td {
+	font-family: Arial;
+}
+svg > g > path.unselected {
+	fill: #ececec;
+}
+svg > g > path.selected {
+	fill: #5f8dd3;
+}
+	@include box-shadow(none);
+	@include border-radius(0px);
+&.breaseTableWidget .devTableColumnWidget {
+	@include font-weight-bold(true);
+}
+&.breaseTableWidget .devTableColumnWidget {
+	@include font-style-italic(false);
+}
+&.breaseTableWidget .devTableColumnWidget > .headerText {
+	@include text-alignment(left);
+}
+&.breaseTableWidget .devTableColumnWidget > .headerText {
+	padding: 0px 8px;
+}
+&.breaseTableWidget .devTableColumnWidget {
+	border-color: #DDDDDD;
+}
+&.breaseTableWidget .devTableColumnWidget {
+	border-width: 1px;
+}
+&.breaseTableWidget .devTableColumnWidget {
+	border-bottom-style: none;
+}
+&.breaseTableWidget .devTableColumnWidget {
+	border-right-style: none;
+}
+&.breaseTableWidget .devTableColumnWidget {
+	border-top-style: none;
+}
+&.breaseTableWidget .devTableColumnWidget {
+	border-left-style: none;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	@include font-weight-bold(false);
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	@include font-style-italic(false);
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	@include text-alignment(left);
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	border-color: #DDDDDD;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	border-width: 1px 0px 0px 0px;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	border-bottom-style: solid;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	border-right-style: solid;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	border-top-style: solid;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	border-left-style: solid;
+}
+&.breaseTableWidget .tw_table table tbody tr td {
+	padding: 8px 14px;
+}
+&:not(.disabled) {
+	@include backGroundGradient('');
+}
+	opacity: 1;
+&.breaseTableWidget .dataTable tr:nth-of-type(even).disabled {
+	background-color: #EAEAEA;
+}
+&.breaseTableWidget .dataTable tr:nth-of-type(odd).disabled {
+	background-color: #FFFFFF;
+}
+.devTableColumnWidget.disabled {
+	background-color: #FCFCFC;
+}
+.devTableColumnWidget.disabled > .headerText {
+	color: #C8C8C8;
+}
+&.breaseTableWidget .dataTable>tbody>tr.disabled>td {
+	color: #C8C8C8;
+}
+
+}
+

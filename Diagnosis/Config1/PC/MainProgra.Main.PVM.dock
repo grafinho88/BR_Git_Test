@@ -1,0 +1,11 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=MainProgra 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=7 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                          gDropDownItems                        STRING[100][0..2]    0 "                                                               *"    0    9  101    0    0    1         
+                       gDropDownItems[0]                              STRING[100]    0 "                                                              ''"    1    9  101    1    0    0         
+                       gDropDownItems[1]                              STRING[100]    0 "                                                              ''"    1    9  101    1    0    0         
+                  gDropDownSelectedIndex                                      INT    0 "                                                               0"    0    3    1   10    0    0         
+                  gDropDownSelectedValue                              STRING[100]    0 "                                                              ''"    0    9  101    1    0    0         
+                          gIntFromString                                      INT    0 "                                                               0"    0    3    1   10    0    0         
+               visuChangeStyleFromWidget                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
+                               visuStyle                               STRING[80]    0 "                                                   'mdksdmfkdmf'"    0    9   81    1    1    0         

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core">
+      <Group ID="BySeverity">
+        <Group ID="[0]">
+          <Property ID="Severity" Value="1" />
+          <Selector ID="[0]" Value="Reaction">
+            <Property ID="Name" Value="InfoActive" />
+          </Selector>
+        </Group>
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="Alarm1" />
+        <Property ID="Message" Value="Alarm 1  {=$AlarmTexts/{&amp;snippet1}}" />
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="Alarm2" />
+        <Property ID="Message" Value="Alarm 2 is active" />
+        <Property ID="Severity" Value="11" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="d" />
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Snippets">
+      <Group ID="[0]">
+        <Property ID="Key" Value="snippet1" />
+        <Selector ID="Value">
+          <Property ID="PV" Value="::Alarm:snippet1" />
+        </Selector>
+      </Group>
+    </Group>
+    <Group ID="mapp.AlarmX.Core.Categories">
+      <Group ID="[0]">
+        <Property ID="Name" Value="Information" />
+        <Selector ID="SourceProperty">
+          <Property ID="Severity" Value="1" />
+        </Selector>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

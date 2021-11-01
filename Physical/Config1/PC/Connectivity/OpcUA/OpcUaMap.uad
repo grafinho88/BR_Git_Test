@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="7" ArVersion="C4.72">
+  <Aliases>
+    <ACLAliases>
+      <ACL Id="1">
+        <ACE RoleId="2" RoleName="Everyone" Access="0x005F" />
+        <ACE RoleId="4" RoleName="Service" Access="0x005F" />
+        <ACE RoleId="3" RoleName="Operator" Access="0x005F" />
+        <ACE RoleId="1" RoleName="Administrators" Access="0x007F" />
+      </ACL>
+      <ACL Id="2">
+        <ACE RoleId="2" RoleName="Everyone" Access="0x00DF" />
+        <ACE RoleId="4" RoleName="Service" Access="0x00FF" />
+        <ACE RoleId="3" RoleName="Operator" Access="0x00DF" />
+        <ACE RoleId="1" RoleName="Administrators" Access="0x01FF" />
+      </ACL>
+      <ACL Id="3">
+        <ACE RoleId="2" RoleName="Everyone" Access="0x00DF" />
+        <ACE RoleId="4" RoleName="Service" Access="0x00FF" />
+        <ACE RoleId="3" RoleName="Operator" Access="0x00FF" />
+        <ACE RoleId="1" RoleName="Administrators" Access="0x01FF" />
+      </ACL>
+    </ACLAliases>
+    <EURangeViolationAliases />
+    <EURangesAliases>
+      <EURanges Id="1">
+        <EURange>
+          <Low ValueProvider="Const">25</Low>
+          <High ValueProvider="Const">50</High>
+        </EURange>
+        <EURange Priority="1" RoleId="4">
+          <Low ValueProvider="Const">20</Low>
+          <High ValueProvider="Const">60</High>
+        </EURange>
+      </EURanges>
+    </EURangesAliases>
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="1" UnitId="4408652" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="degree Celsius" Symbol="°C" />
+    </EngineeringUnitAliases>
+  </Aliases>
+  <DefaultView AclId="2">
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Globale Variablen">
+        <Variable Name="gIstTemp" EngineeringUnitId="1" />
+        <Variable AclId="3" AclInherit="2" Name="gSollTemp" EURangesId="1" EngineeringUnitId="1" />
+        <Variable Name="ClientInfo" />
+        <Variable Name="gDropDownItems" />
+        <Variable Name="gDropDownSelectedIndex" />
+        <Variable Name="gDropDownSelectedValue" />
+        <Variable Name="testInt" />
+      </GlobalVariables>
+      <Task Name="MainProgra">
+        <Variable Name="visuChangeStyleFromWidget" />
+        <Variable Name="visuStyle" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

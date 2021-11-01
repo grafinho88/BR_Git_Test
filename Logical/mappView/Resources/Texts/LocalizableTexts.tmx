@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="MainPage">
+      <tuv xml:lang="de">
+        <seg>Start</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Main</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ServicePage">
+      <tuv xml:lang="de">
+        <seg>Service</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Service</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmPage">
+      <tuv xml:lang="de">
+        <seg>Alarme</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LoginAs">
+      <tuv xml:lang="de">
+        <seg>Eingelogt als:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Logtin as:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Logout">
+      <tuv xml:lang="de">
+        <seg>Ausloggen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Logout</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Login">
+      <tuv xml:lang="de">
+        <seg>Einloggen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Username">
+      <tuv xml:lang="de">
+        <seg>Benutzername</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Username</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Password">
+      <tuv xml:lang="de">
+        <seg>Passwort</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SetDefaultValue">
+      <tuv xml:lang="de">
+        <seg>Auf Standartwert setzen</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Set to default value</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1">
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+		<Source xsi:type="opcUa" refId="::AsGlobalPV:gIstTemp" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />	
+		<Target xsi:type="brease" refId="MainPageContent_NumericOutput1" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+	</Binding><Binding mode="oneWay">
+		<Source xsi:type="opcUa" refId="::AsGlobalPV:gIstTemp" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />	
+		<Target xsi:type="brease" refId="MainPageContent_NumericOutput1" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+	</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gSollTemp" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="MainPageContent_NumericInput1" attribute="node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gSollTemp" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="MainPageContent_NumericInput1" attribute="editable::node" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Content>
+  <Visualization>
+    <Binding mode="oneWayToSource">
+			<Source mode="oneWayToSource" xsi:type="listElement" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Selector xsi:type="variable" refId="::SYSTEM:clientInfo.slotId" attribute="value" />
+    <br:List xsi:type="br:opcUa" id="session*::SYSTEM:clientInfo.ipAddress*value" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+    <br:Element index="0" refId="::AsGlobalPV:ClientInfo[0].ipAddress" attribute="value" />
+    <br:Element index="1" refId="::AsGlobalPV:ClientInfo[1].ipAddress" attribute="value" />
+    <br:Element index="2" refId="::AsGlobalPV:ClientInfo[2].ipAddress" attribute="value" /></br:List></Source>
+			<Target xsi:type="variable" refId="::SYSTEM:clientInfo.ipAddress" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+		</Binding>
+  </Visualization>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gDropDownItems" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="MainPageContent_DropDownBox1" attribute="dataProvider" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gDropDownSelectedIndex" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="MainPageContent_DropDownBox1" attribute="selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gDropDownSelectedIndex" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="MainPageContent_DropDownBox1" attribute="editable::selectedIndex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gDropDownSelectedValue" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="MainPageContent_DropDownBox1" attribute="selectedValue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gDropDownSelectedValue" attribute="editable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="MainPageContent_DropDownBox1" attribute="editable::selectedValue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="oneWay">
+	<Source xsi:type="opcUa" refId="::MainProgra:visuChangeStyleFromWidget" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+	<Target xsi:type="brease" refId="MainPageContent_ButtonMsgBox" attribute="enable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="MainPageContent">
+    <Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::MainProgra:visuStyle" attribute="value" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="MainPageContent_ButtonMsgBox" attribute="style" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+  <Content id="alarmHistoryContent">
+    <Binding mode="twoWay">
+<Source xsi:type="mapp" refId="gAlarmXHistory" attribute="link" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+<Target xsi:type="brease" refId="alarmHistoryContent_AlarmHistory1" attribute="mpLink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+</Binding>
+  </Content>
+</BindingDefinition>
