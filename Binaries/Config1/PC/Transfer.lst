@@ -7,6 +7,7 @@
   <Operation Delete="TestMotor.br"/>
   <Operation Delete="MainProgra.br"/>
   <Operation Delete="mvLoader.br"/>
+  <Operation Delete="MpRecipe.br"/>
   <Operation Delete="MpServer.br"/>
   <Operation Delete="Library.br"/>
   <Operation Delete="MpAlarmX.br"/>
@@ -41,6 +42,7 @@
   <Operation Download="MpAlarmX.br" Memory="UserROM"/>
   <Operation Download="Library.br" Memory="UserROM"/>
   <Operation Download="MpServer.br" Memory="UserROM"/>
+  <Operation Download="MpRecipe.br" Memory="UserROM"/>
   <Operation Download="ashwac.br" Memory="UserROM"/>
   <Operation Download="Config.br" Memory="UserROM"/>
   <Operation Download="Config_1.br" Memory="UserROM"/>

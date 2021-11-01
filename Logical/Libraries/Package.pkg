@@ -13,5 +13,6 @@
     <Object Type="Library" Language="Binary" Description="Communication library for mappView widgets">MpServer</Object>
     <Object Type="Library" Language="Binary" Description="Advanced alarm management">MpAlarmX</Object>
     <Object Type="Library" Language="Binary" Description="Core library for mapp components">MpBase</Object>
+    <Object Type="Library" Language="Binary" Description="Recipe management">MpRecipe</Object>
   </Objects>
 </Package>
