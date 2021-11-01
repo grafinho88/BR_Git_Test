@@ -1,6 +1,0 @@
-﻿@import "mixins.scss";
-div[data-brease-dialogId='dialog_login'] {
-	.breaseDialogWindowContentBox > .breaseLayout{
-@include backgroundSize(contain);
-	}
-}

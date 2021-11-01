@@ -1,4 +1,0 @@
-$(AS_PROJECT_PATH)/Logical/Project.language
-$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/LocalizableTexts.tmx
-$(AS_PROJECT_PATH)/Logical/mappView/Visualization/Resources/Texts/AlarmTexts.tmx
-$(AS_PROJECT_PATH)/Logical/mappView/Resources/Texts/AlarmList.tmx

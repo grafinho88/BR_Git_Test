@@ -1,4 +1,0 @@
-$(AS_PROJECT_PATH)/Logical/Global.var
-$(AS_PROJECT_PATH)/Logical/MainProgram/Variables.var
-$(AS_PROJECT_PATH)/Physical/Config1/PC/Cpu.sw
-$(AS_PROJECT_PATH)/Physical/Config1/PC/AccessAndSecurity/UserRoleSystem/Role.role
